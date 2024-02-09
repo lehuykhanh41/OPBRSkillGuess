@@ -219,7 +219,7 @@ function answer(button, index) {
       document.getElementById(button).style.backgroundColor = "white";
       document.getElementById(button).style.color = "black";
       changeQuestion();
-    }, 1000);
+    }, 700);
   }
 
   } else {
@@ -240,7 +240,7 @@ function answer(button, index) {
       document.getElementById("answer" + correctAnswer).style.color = "black";
       changeQuestion();
       
-    }, 1000);
+    }, 700);
   }
   }
   update();

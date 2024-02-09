@@ -135,6 +135,11 @@ function reset() {
   document.getElementById("currentStreak").innerHTML = score;
   counter = 0;
   document.getElementById("currentQuestion").innerHTML = counter+1;
+
+  for (let n = 0; n < 4; n++) {
+     document.getElementById("answer" + n).style.backgroundColor = "white";
+     document.getElementById("answer" + n).style.color = "black";
+  }
 }
 
 
@@ -197,7 +202,7 @@ function update() {
     document.getElementById("bestStreak").innerHTML = bestScore;
   }
 
-  if (counter == 15) {
+  if (counter > 14) {
     alert("Congratulations! Your score is " + score + "/15. Press OK to play again.");
     reset();
   }

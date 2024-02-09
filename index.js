@@ -68,7 +68,7 @@ const skills = [
 "Yashikaburi Blash",
 "No One Harms a Friend of Mine !",
 "Cursed Technique Hollow Purple",
-"Don't Choose This", // 70 in World
+"No One Can Escape !", // 70 in World
 "3 Sword Style: Flame Dragon",
 "Stop Right There !",
 "You Must Be Very Brave Huh?",
@@ -211,7 +211,7 @@ function update() {
     document.getElementById("bestStreak").innerHTML = bestScore;
   }
 
-  if (counter > 15) {
+  if (counter >= 15) {
     alert("Congratulations! Your score is " + score + "/15. Press OK to play again.");
     reset();
   }

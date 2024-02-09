@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OPBR: WHAT SKILL IS THIS?</title>
+    <link rel= "stylesheet" href="style.css"></link>
+  </head>
+
+  <body>
+    <div id="mainScreen" style="color: white;">
+      <div id="backgroundIMG"></div>
+
+      <div id="title"> 
+        OPBR: WHAT SKILL IS THIS? 
+      </div>
+
+      <div id="streak">
+
+        <div id="bestScore">BEST SCORE: <span id="bestStreak">0</span></div>
+        <div id="currQuestion">CURRENT QUESTIONS: <span id="currentQuestion">0</span>/15</span></div>
+        <div id="currScore">CURRENT SCORE: <span id="currentStreak">0</span></div>
+        
+      </div>
+
+      <div id="skillIcon">
+        <img id="icon" src="img/IMG_4648.jpg">
+      </div>
+
+      <button id="reset" onclick="reset()">RESET</button>
+
+      <div id="answerBox">
+
+        <button class="answerButton" id="answer0" onclick="answer('answer0', 0)">Luffy Nika's Skill 1: The Splitting of Heaven and Earth</button>
+        <button class="answerButton" id="answer1" onclick="answer('answer1', 1)">Answer 2</button>
+        <button class="answerButton" id="answer2" onclick="answer('answer2', 2)">Answer 3</button>
+        <button class="answerButton" id="answer3" onclick="answer('answer3', 3)">Answer 4</button>
+
+      </div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+	<script src="index.js"></script>
+  </body>
+
+</html>
+
+

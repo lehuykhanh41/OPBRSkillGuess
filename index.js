@@ -7,7 +7,7 @@ const skills = [
 "Ikoku Sovereignty",
 "Divine Departure",
 "I Wouldn't Want You Guys to Get Hurt",
-"Oden Nitoryu: Gun Modokui",
+"Oden Nitoryu: Gun Modoki",
 "Oden Nitoryu: Paradise Totsuka",
 "Crimson Hound Bite",
 "Meteor Volcano",

@@ -202,7 +202,7 @@ function update() {
     document.getElementById("bestStreak").innerHTML = bestScore;
   }
 
-  if (counter > 14) {
+  if (counter > 15) {
     alert("Congratulations! Your score is " + score + "/15. Press OK to play again.");
     reset();
   }
@@ -219,7 +219,7 @@ function answer(button, index) {
     score++;
     document.getElementById("currentStreak").innerHTML = score;
 
-    if (counter < 14) {
+    if (counter < 15) {
     setTimeout(() => {
       document.getElementById(button).style.backgroundColor = "white";
       document.getElementById(button).style.color = "black";
@@ -236,7 +236,7 @@ function answer(button, index) {
     document.getElementById("answer" + correctAnswer).style.color = "white";
 
     counter++;
-    if (counter < 14) {
+    if (counter < 15) {
     setTimeout(() => {
       document.getElementById(button).style.backgroundColor = "white";
       document.getElementById(button).style.color = "black";

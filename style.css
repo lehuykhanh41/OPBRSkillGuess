@@ -38,13 +38,13 @@ body {
     font-weight: bolder;
     -webkit-text-stroke: 1.2px aqua;
     text-shadow: 4px 3px black;
-    font-size: 23px;
+    font-size: 25px;
 }
 
 #streak {
     z-index: 1;
     position: absolute;
-    top: 12%;
+    top: 10%;
     left: 17%;
     text-align: center;
 }

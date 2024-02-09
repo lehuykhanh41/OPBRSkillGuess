@@ -63,11 +63,11 @@ const skills = [
 "Scyther Sonic",
 "Electro Blast", //62 (63 in World)
 "Gum-Gum Giant Stamp",
-"Gum-Gum Red Rock",
+"Ultra Instinct",
 "Gum-Gum Red Hawk",
 "Yashikaburi Blash",
 "No One Harms a Friend of Mine !",
-"A World Of Pain",
+"Cursed Technique Hollow Purple",
 "Don't Choose This", // 70 in World
 "3 Sword Style: Flame Dragon",
 "Stop Right There !",
@@ -75,11 +75,20 @@ const skills = [
 "Such an Incompetent Opponent",
 "Franky General Cannon",
 "Did you just say something?",
-"Red Arm Smash",
+"Water Breathing: I'm Drowning",
 "United States of Smash",
 "Black Lightning",
 "Domain Expansion: Infinite Void",
-"Brulee Best Girl?", // 81
+"Brulee Best Girl?",
+"Fire Breathing: Roast Me Please",// 82
+"Can I See Your Panties?",
+"Serious Punch",
+"I am Atomic",
+"Aqua's Purification",
+"Love Breathing: No Girls Like Me",
+"Domain Expansion: Malevolent Shrine",
+"Pirate Docking 6",
+"Tana P & the Legend of 50 RD",
 ];
 
 class Question {
@@ -166,18 +175,18 @@ function changeQuestion() {
           values[i] = currentQuestion.correct;
           correctAnswer = i;
         } else {
-          let rand = Math.floor(Math.random() * 81);
+          let rand = Math.floor(Math.random() * 90);
           while (rand == values[0] || rand == values[1] || rand == values[2] || rand == values[3]) {
-            rand = Math.floor(Math.random() * 81);
+            rand = Math.floor(Math.random() * 90);
           }
           document.getElementById("answer" + i).innerHTML = skills[rand];
           values[i] = rand;
         }
       }
     } else {
-      let rand = Math.floor(Math.random() * 81);
+      let rand = Math.floor(Math.random() * 90);
           while (rand == values[0] || rand == values[1] || rand == values[2] || rand == values[3]) {
-            rand = Math.floor(Math.random() * 81);
+            rand = Math.floor(Math.random() * 90);
           }
           document.getElementById("answer" + i).innerHTML = skills[rand];
           values[i] = rand;

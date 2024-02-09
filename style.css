@@ -38,14 +38,14 @@ body {
     font-weight: bolder;
     -webkit-text-stroke: 1.2px aqua;
     text-shadow: 4px 3px black;
-    font-size: 28px;
+    font-size: 23px;
 }
 
 #streak {
     z-index: 1;
     position: absolute;
     top: 9%;
-    left: 19%;
+    left: 17%;
     text-align: center;
 }
 
@@ -114,6 +114,7 @@ body {
 }
 
 .answerButton {
+    color: black;
     display: block;
     margin-top: 20px;
     padding: 6px;
